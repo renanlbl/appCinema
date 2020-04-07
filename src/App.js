@@ -1,8 +1,14 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from '../src/routes';
 
 function App() {
   return (
-    <h1>Hello App Cinema with only react-hooks and firebase</h1>
+    <BrowserRouter>
+      {/* <Header /> */}
+      <Routes />
+      {/* <Footer /> */}
+    </BrowserRouter>
   );
 }
 
